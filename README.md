@@ -20,9 +20,10 @@ El proyecto está estructurado para separar claramente los datos, el código y l
 ├── data/
 │   ├── raw/                 # Dataset original crudo (spotify-tracks-dataset.csv)
 │   └── processed/           # Dataset limpio, deduplicado y escalado
-├── docs/                    # Documentación del proyecto (Reportes, DQR)
+├── models/                  # Modelos ML entrenados
+├── reports/                 # Data Quality Report y Formulación de Problemática
 ├── notebooks/               # Jupyter Notebooks documentados paso a paso
-│   ├── 01_EDA_y_Visualizacion.ipynb
-│   └── 02_Preprocesamiento_Pipeline.ipynb
+│   ├── 01_EDA_Spotify.ipynb
+│   └── 02_Preprocesamiento.ipynb
 ├── README.md                # Descripción e instrucciones de ejecución
 └── requirements.txt         # Listado estricto de dependencias
